@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 12</title>
+        <style>
+            body{
+                color: white;
+                background-color: #dc225a;
+            }
+
+            div{
+                align-content: center;
+                width: 60%;
+            }
+
+            input[type=text], select, textarea
+            {
+                width: 50%;
+                padding: 10px;
+                border: 1px solid white;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-left:40px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=textarea]
+            {
+                width: 50%;
+                padding: 10px;
+                border: 1px solid white;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-left:40px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=password]
+            {
+                width: 50%;
+                padding: 10px;
+                border: 1px solid white;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-left:20px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+
+            input[type=radio]
+            {
+                width: 10%;
+                padding: 10px;
+                border: 1px solid white;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-left:30px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+    
+            input[type=submit]
+            {
+                margin-top: 20px;
+                background-color: white;
+                color: black;
+                font-size: large;
+                width: 100%;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        
+            .container {
+            border-radius: 5px;
+            background-color: rgb(76, 4, 40);
+            padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <div class="container">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="nameinp" name="name" placeholder="Your name">
+                        <br>
+                        
+                        <label for="email">Email</label>
+                        <input type="text" id="emailinp" name="email" placeholder="Your email">
+                        <br>
+          
+                        <label for="pass">Password</label>
+                        <input type="password" id="passinp" name="pass" name="pass">
+                        <br>
+
+                        <label for="Phone">Phone</label>
+                        <input type="text" id="Phoneinp" name="Phone">
+                        <br>
+
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender"/>Male
+                        <input type="radio" name="gender"/>Female
+                        <input type="radio" name="gender"/>Other
+                        <br>
+
+                        <label for="email">Language</label>
+                        <select>
+                            <option value="1">Select a language</option>
+                            <option value="2">English</option>
+                            <option value="3">Hindi</option>
+                            <option value="4">Tamil</option>
+                        </select>
+                        <br>
+
+                        <label for="Zip">Zip Code</label>
+                        <input type="text" id="Zipinp" name="Zip">
+                        <br>
+          
+                        <label for="about">About:</label>
+                        <textarea style="width: 50%;" id="aboutinp" name="about" placeholder="Write something.." style="width: 220px;"></textarea>
+                        <br>
+
+                        <input type="submit" value="Register">
+                      </form>
+            </div>
+        </center>
+    </body>
+</html>
+

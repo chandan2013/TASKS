@@ -1,0 +1,47 @@
+body
+{
+    padding-left: 160px;
+    font-family: Georgia;
+    color: purple;
+    background-color:rgb(247, 247, 8);
+}
+ul.navbar
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+}
+h1
+{
+    font-family: Cambria;
+}
+
+ul.navbar li
+{
+    background: white;
+    margin: 10px 0;
+    padding: 5px;
+    border-right: 15px solid black
+}
+ul.navbar a
+{
+    text-decoration: none
+}
+a:link
+{
+    color: blue
+}
+a:visited
+{
+    color: purple
+}
+address
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: thin dotted
+}

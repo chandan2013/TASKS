@@ -1,0 +1,45 @@
+td {
+    width: 1200px;
+    width: 70%;
+
+}
+
+ #one {
+    border: 1px solid;
+    border-collapse: collapse;
+    
+}
+
+#two{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#thre{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#fore{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#fiv{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#six{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+#sev{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+button{
+    border-color: rgb(255, 193, 127);
+}
+#car{
+    width: 100px;
+    height: 20px;
+}
